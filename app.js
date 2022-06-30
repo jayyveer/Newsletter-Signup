@@ -55,7 +55,7 @@ app.post("/", function(req, res){
     request.end();
 });
 
-app.listen(procews.env.PORT  || 3000,function(){
+app.listen(process.env.PORT  || 3000,function(){
     console.log("Server is running on port 3000");
 })
 
